@@ -82,3 +82,7 @@ Log output from the Light Switch Sensor (nRF5340-DK):
 
 > **Note**
 > Due to the USB enumeration on the Thingy:53, you will likely not see the shell output during boot. Seeing response on the UART shell when hitting "Enter" shall be sufficient for Thingy:53.
+
+## Next Chapter
+
+### [Chapter 2 - Test and Use the KNX IoT System](./2_KNX_Control.md)

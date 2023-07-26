@@ -2,14 +2,14 @@
 This workshop guides you through the setup of a KNX IoT over Thread network, using Nordic SoCs.
 This guide follows the official Nordic documentation, found under the [Nordic Playground](https://nordicplayground.github.io/nrf-knx-iot/index.html).
 
-We will run two Nordic sample applications, a KNX IoT Sensor and a KNX IoT Actuator against each other and without any further Thread device.<br>
+We will run two Nordic samples, a KNX IoT Sensor and a KNX IoT Actuator that are communicating directly over Thread. There is no further Thread device/gateway needed.<br>
 
 1. The KNX Sensor is simply a control interface/switch, we will use a nRF5340 DK with its buttons to trigger actions. 
 2. The KNX Actuator will react based on these actions. We will use a Thingy:53 to trigger its LEDs based on the pressed buttons. Note the Thingy:53 has 3 LEDs, which compose its RGB LED, seen in the top left corner.
 
-<img src="images/prefix_KNX_setup.PNG" alt="KNX IoT Network Setup" width="700px"/>
-<br>
-You will need:
+<img src="images/prefix_KNX_setup.PNG" alt="KNX IoT Network Setup" width="700px"/><br>
+
+You will need:<br>
 
 1. **nRF5340-DK**
 2. **Thingy:53**
