@@ -60,7 +60,10 @@ Flashing the nRF5340-DK is fairly straightforward due to the onboard J-Link debu
 #### B) KNX IoT Light Switch Actuator / Thingy:53
 
 The Thingy:53 can be flashed from the nRF5340-DK if you have a compatible JTAG/SWD 10pin cable at hand.<br>
-Use the ``Debug out`` pin header, found next to the power supply and current measurement pin headers, and connect it with the Thingy:53. 
+Use the ``Debug out`` pin header, found next to the power supply and current measurement pin headers, and connect it with the Thingy:53.<br>
+
+> **Note**
+> You can execute the flash process via VS Code as done on the nRF5340-DK, or use the nRF Programmer app. The hex file that contains both images (for the nRF5340 app + net core) is called ``merged_domains.hex``, after build it is found under: ``\nrf-knx-iot\samples\light_switch_actuator\build\zephyr\merged_domains.hex``.
 
 <img src="images/1_thingy53_nrf5340_dk.svg" alt="Thingy:53 flash via debug probe"/>
 
